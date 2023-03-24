@@ -11,6 +11,8 @@ import { TwoWayDataBindinigComponent } from './two-way-data-bindinig/two-way-dat
 import { FormsModule } from '@angular/forms';
 import { RenderListComponent } from './render-list/render-list.component';
 import { CustomComponentComponent } from './custom-component/custom-component.component';
+import { ParentComponentComponent } from './parent-component/parent-component.component';
+import { ChildrenComponentComponent } from './children-component/children-component.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +23,9 @@ import { CustomComponentComponent } from './custom-component/custom-component.co
     CustomPipeComponent,
     TwoWayDataBindinigComponent,
     RenderListComponent,
-    CustomComponentComponent
+    CustomComponentComponent,
+    ParentComponentComponent,
+    ChildrenComponentComponent
   ],
   imports: [
     BrowserModule,
