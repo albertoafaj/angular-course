@@ -19,6 +19,7 @@ import { LifeCicleComponent } from './life-cicle/life-cicle.component';
 import { LifeCicleParentComponent } from './life-cicle-parent/life-cicle-parent.component';
 import { FirstPageComponent } from './first-page/first-page.component';
 import { SecondPageComponent } from './second-page/second-page.component';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 @NgModule({
   declarations: [
@@ -37,7 +38,8 @@ import { SecondPageComponent } from './second-page/second-page.component';
     LifeCicleComponent,
     LifeCicleParentComponent,
     FirstPageComponent,
-    SecondPageComponent
+    SecondPageComponent,
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,
