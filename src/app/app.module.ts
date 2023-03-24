@@ -17,6 +17,7 @@ import { ExampleServices01Component } from './example-services01/example-service
 import { ExampleServices02Component } from './example-services02/example-services02.component';
 import { LifeCicleComponent } from './life-cicle/life-cicle.component';
 import { LifeCicleParentComponent } from './life-cicle-parent/life-cicle-parent.component';
+import { FirstPageComponent } from './first-page/first-page.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +34,8 @@ import { LifeCicleParentComponent } from './life-cicle-parent/life-cicle-parent.
     ExampleServices01Component,
     ExampleServices02Component,
     LifeCicleComponent,
-    LifeCicleParentComponent
+    LifeCicleParentComponent,
+    FirstPageComponent
   ],
   imports: [
     BrowserModule,
