@@ -21,6 +21,8 @@ import { FirstPageComponent } from './first-page/first-page.component';
 import { SecondPageComponent } from './second-page/second-page.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { PageParamsComponent } from './page-params/page-params.component';
+import { ProtectPageComponent } from './protect-page/protect-page.component';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   declarations: [
@@ -41,7 +43,9 @@ import { PageParamsComponent } from './page-params/page-params.component';
     FirstPageComponent,
     SecondPageComponent,
     PageNotFoundComponent,
-    PageParamsComponent
+    PageParamsComponent,
+    ProtectPageComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
