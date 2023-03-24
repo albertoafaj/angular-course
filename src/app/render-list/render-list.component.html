@@ -1,0 +1,8 @@
+<h2>render-list works!</h2>
+<ul class="products-list">
+  <li *ngFor="let celular of celulares">
+    <strong>{{ celular.name}}</strong>
+    <p>{{ celular.description}}</p>
+    <span [ngClass]="celular.soldOff ? 'soldOFf' : '' ">{{ celular.soldOff ? "esgotado" : "disponível"}}</span>
+  </li>
+</ul>
