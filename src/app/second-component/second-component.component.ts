@@ -8,4 +8,5 @@ import { Component } from '@angular/core';
 export class SecondComponentComponent {
   name = "Alberto";
   birthday = "03/04/1984";
+  urlImage = "/assets/profile-photo.png";
 }
