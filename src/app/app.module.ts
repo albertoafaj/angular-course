@@ -13,6 +13,8 @@ import { RenderListComponent } from './render-list/render-list.component';
 import { CustomComponentComponent } from './custom-component/custom-component.component';
 import { ParentComponentComponent } from './parent-component/parent-component.component';
 import { ChildrenComponentComponent } from './children-component/children-component.component';
+import { ExampleServices01Component } from './example-services01/example-services01.component';
+import { ExampleServices02Component } from './example-services02/example-services02.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +27,9 @@ import { ChildrenComponentComponent } from './children-component/children-compon
     RenderListComponent,
     CustomComponentComponent,
     ParentComponentComponent,
-    ChildrenComponentComponent
+    ChildrenComponentComponent,
+    ExampleServices01Component,
+    ExampleServices02Component
   ],
   imports: [
     BrowserModule,
